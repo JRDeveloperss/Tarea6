@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscador de Pokémon"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etPokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre o número del Pokémon"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btnBuscarPokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Pokémon" />
+
+        <ImageView
+            android:id="@+id/imgPokemon"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:contentDescription="Imagen del Pokémon"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvNombrePokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre: --"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvExperiencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experiencia base: --"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvHabilidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Habilidades: --"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnSonidoPokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reproducir sonido"
+            android:enabled="false"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

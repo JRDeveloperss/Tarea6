@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F8"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgCajaHerramientas"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="Caja de herramientas"
+            android:src="@android:drawable/ic_menu_manage"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MultiTools"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#204F47"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu colección de herramientas digitales"
+            android:textSize="15sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Predecir género" />
+
+        <Button
+            android:id="@+id/btnUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario aleatorio" />
+
+        <Button
+            android:id="@+id/btnUniversidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar universidades" />
+
+        <Button
+            android:id="@+id/btnClima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clima de República Dominicana" />
+
+        <Button
+            android:id="@+id/btnPokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Pokémon" />
+
+        <Button
+            android:id="@+id/btnNoticias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noticias WordPress" />
+
+        <Button
+            android:id="@+id/btnAcercaDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acerca de" />
+
+    </LinearLayout>
+
+</ScrollView>

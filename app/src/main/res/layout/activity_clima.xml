@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clima en República Dominicana"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#173B57"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- °C"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcionClima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultando el clima..."
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvFechaClima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvSensacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensación térmica: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvHumedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Humedad: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvViento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viento: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvMaxMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Máxima y mínima: --"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnActualizarClima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar clima" />
+
+    </LinearLayout>
+</ScrollView>

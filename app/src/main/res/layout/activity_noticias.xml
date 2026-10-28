@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgLogoKinsta"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:contentDescription="Logo de Kinsta"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Últimas publicaciones de Kinsta"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#5333ED"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvEstadoNoticias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cargando publicaciones..."
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutListaNoticias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnActualizarNoticias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar publicaciones"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnVisitarKinsta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visitar sitio web de Kinsta"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

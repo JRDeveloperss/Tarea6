@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F7F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imgMiFoto"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/img"
+            android:contentDescription="Mi fotografía"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acerca de mí"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#204F47"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvMiNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jeremy Rubio"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvMiCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estudiante de Desarrollo de Software"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información profesional"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#204F47"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvMiCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo: benjaminrubio.opx@gmail.com"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvMiTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono: 8294182020"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvMiPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfil: estudiante interesado en tecnología, análisis de datos y desarrollo de software."
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contactarme por correo"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
